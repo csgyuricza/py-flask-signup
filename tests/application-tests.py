@@ -48,7 +48,7 @@ class AppTestCase(unittest.TestCase):
 
     def test_login(self):
         """ Test that we can authenticate as a user """
-        self.assertTrue(1)
+        self.assertFalse(1)
 
 
 if __name__ == '__main__':
